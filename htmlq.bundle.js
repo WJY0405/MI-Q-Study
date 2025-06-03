@@ -1,1 +1,0 @@
-// Placeholder for htmlq.bundle.js - In real use, replace with actual script.
