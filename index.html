@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>Multilingual Identity Q Study</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://shawnbanasick.github.io/htmlq/js/bundle.min.js"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    fetch("config.json")
+      .then(response => response.json())
+      .then(config => htmlq.run(config));
+  </script>
+</body>
+</html>
